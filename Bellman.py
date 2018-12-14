@@ -39,7 +39,7 @@ def bellman_ford(graph, source):
     return d, p
 
 
-def test():
+def test():#
     graph = {
         'a': {'b': -1, 'c':  4},
         'b': {'c':  3, 'd':  2, 'e':  2},
